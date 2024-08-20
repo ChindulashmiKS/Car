@@ -1,0 +1,112 @@
+.spotlight{
+    height:100vh;
+}.navigationbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding: 40px 125px ;
+}
+.logo img{
+    width: 100%;
+}
+.navbuttons{
+    padding-right: 70px;
+    display: flex;
+    grid-gap: 40px;  
+    display: flex;
+    align-items: center; 
+    
+}
+.navbuttons span a{
+    color: #798087;
+    font-size: 18px;
+    text-decoration: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbuttons button a:hover{
+    color: black;
+}
+.navbuttons span a:hover{
+    color: black;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-underline-offset: 0.5em;
+    text-decoration-color: #338BF3;
+}
+.navigationbar button a{
+    text-decoration: none;
+    color: white;   
+}
+.navigationbar button a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.navigationbar button {
+    background-color: #338BF3;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    height: 35px;
+    width: 120px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section1{
+    padding:15px 118px;
+    height: 80px;
+}
+.section1 .availableimg{
+    width: 100%;
+    height: 30%;
+}
+.section1 .heading h1{
+    font-weight: 400;
+    color: #3F4449;
+    font-size: 42px;
+    width: 125%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section1 h1 span{
+    color: #338BF3;
+}
+.letters{
+    display: flex;
+    width: 105%;
+    grid-gap: 143px;
+    align-items: center;
+    }
+.letters .para{
+    width: 60%;
+    color:#798087;
+    font-size: 20px;   
+    font-weight: 200; 
+    margin-left: 58px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cars{
+    padding: 0px 78px 0px 45px;
+    width: 143%;
+    height: 100%;
+    display: flex;
+    /* overflow: scroll; */
+}
+.section1 ul li{
+    list-style: none;
+}
+.section1 ul{
+    display: flex;
+    overflow-x: scroll;
+    list-style: none;
+}
+.section1 ul::-webkit-scrollbar{
+    display: none;
+}
+.section1 ul li img{
+    width: 375px;
+    display: block;
+}
